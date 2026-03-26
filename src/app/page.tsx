@@ -268,7 +268,7 @@ export default function App() {
                   transition={{ delay: 0.2 }}
                   className="px-4 py-1 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-400 text-sm font-medium tracking-wider uppercase"
                 >
-                  Innovating Remittance
+                  Innovating Payment
                 </motion.div>
                 <motion.h1 
                   className="text-6xl md:text-8xl font-black tracking-tighter bg-clip-text text-transparent bg-gradient-to-b from-white to-slate-500 leading-tight"
@@ -276,7 +276,7 @@ export default function App() {
                   FINTREAD.
                 </motion.h1>
                 <motion.p className="text-xl text-slate-400 max-w-2xl leading-relaxed">
-                  A mission-driven, remote-first fintech culture that prioritizes speed and growth. We are building the future of cross-border payments between the US and the Philippines.
+                  A mission-driven, remote-first fintech culture that prioritizes speed and growth. We are building the future of cross-border payments in the Philippines.
                 </motion.p>
                 
                 <motion.div className="flex gap-4 pt-8">
@@ -292,7 +292,7 @@ export default function App() {
                     View Open Roles <ChevronRight size={20} />
                   </button>
                   <a 
-                    href="https://linkedin.com" 
+                    href="https://linkedin.com/company/fintread" 
                     target="_blank"
                     className="px-8 py-4 bg-white/5 border border-white/10 font-bold rounded-2xl hover:bg-white/10 transition-colors"
                   >
