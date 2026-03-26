@@ -400,7 +400,7 @@ export default function App() {
 
                 <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row gap-4 items-center justify-between">
                   <div className="text-sm text-slate-500">
-                    Max Annual Reward: <span className="text-white font-bold">$50,000 USD</span>
+                    Max Annual Reward: <span className="text-white font-bold">$45,000 USD</span>
                   </div>
                   <button 
                     onClick={() => handleApply(selectedJob)}
