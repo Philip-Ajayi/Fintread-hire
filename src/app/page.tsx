@@ -58,28 +58,22 @@ const JOBS = [
     slug: 'anti-money-laundering-officer',
     tags: ['Remote', 'Part-time', '2% Profit Share'],
     description: `
-      <p><strong>About the Vision</strong></p>
-      <p>We are currently in the pre-launch phase of building a next-generation, high-speed payment system. Our goal is to bridge the gap between US-based headquarters and the Philippine market as an Operator of Payment System (OPS). We aren’t just building another financial tool; we are leveraging advanced technology and automation to redefine how money moves. We are looking for a founding team member who thrives in a lean, mission-driven environment and is ready to help us build from the ground up.</p>
-      <p><strong>The Role</strong></p>
-      <p>As our Founding AML Officer, you will join us at the inception stage. Unlike traditional roles where you might spend months drafting paperwork from scratch, we are already in the process of finalizing our initial policies. Your primary focus will be to apply your expertise to review, refine, and stress-test these policies to ensure they meet the highest regulatory standards. You will work closely with our software engineering team to ensure our automated systems are compliant by design, not just by documentation.</p>
-      <p><strong>What You’ll Do</strong></p>
-      <p><strong>* Policy Review:</strong> Provide expert feedback on our initial AML/KYC policies to ensure they are robust and ready for our US and Philippine registrations.</p>
-      <p><strong>* Strategic Guidance:</strong> Act as a key advisor to the founders. Depending on fit, you may serve as an interim Board Member or Executive to provide direction until our final product launch.</p>
-      <p><strong>* Collaborative Integration:</strong> Work alongside our technical builders to ensure our "speed and growth" culture doesn’t compromise on security and regulatory rigor.</p>
-      <p><strong>Requirements</strong></p>
-      <p><strong>* Education:</strong> Bachelor’s Degree (BSc) in Law, Finance, Business Administration, or a related field.</p>
-      <p><strong>* Experience:</strong> Proven track record in Anti-Money Laundering (AML) and Counter-Terrorist Financing (CTF) within the fintech or banking sector.</p>
-      <p><strong>* Regulatory Knowledge:</strong> Familiarity with US financial regulations and/or BSP (Bangko Sentral ng Pilipinas) requirements for an Operator of Payment System (OPS).</p>
-      <p><strong>* Creative Problem Solving:</strong> We need someone with strong creative work experience who can think outside the box to solve compliance hurdles in a fast-paced environment.</p>
-      <p><strong>* Tech-Savvy:</strong> Comfortable working with remote teams and understanding how automated software systems handle financial data.</p>
-      <p><strong>The Offer (Revenue-Based Partnership)</strong></p>
-      <p>We are looking for a true partner who believes in the mission. This is a remote, part-time role with the potential to transition to full-time as we scale.</p>
-      <p><strong>* Compensation:</strong> 2% of company profit (calculated after tax but before shareholder deductions).</p>
-      <p><strong>* Cap:</strong> This revenue-sharing model is subject to a strict cap of $50,000.</p>
-      <p><strong>* Growth:</strong> Direct involvement in the leadership structure of a startup before its official market launch.</p>
-      <p><strong>Our Culture</strong></p>
-      <p>We are a remote-first team that prioritizes speed, clear documentation, and customer-driven execution. We stay lean through automation and obsess over user experience. If you prefer bureaucracy and slow-moving hierarchies, we might not be the right fit. If you want to build the future of payments with a sharp, agile team, we want to hear from you.</p>
-      <p><strong>Note:</strong> We are conducting interviews immediately to integrate our founding members before the official launch. We look forward to meeting you.</p>
+       <p><strong>About Fintread LLC</strong></p>
+       <p>We are a mission-driven fintech startup in its pre-launch phase, preparing to establish our global headquarters in the United States. Our immediate mission is to disrupt the payments landscape in the Philippines by securing an Operator of Payment System (OPS) license and deploying a high-speed, tech-forward payment infrastructure. With a long-term vision to scale across Asia, we are building a remote-first culture that obsesses over user experience, engineering standards, and lean, automated growth.</p>
+       <p><strong>The Opportunity</strong></p>
+       <p>We are looking for an Anti-Money Laundering (AML) expert to join us as a founding employee. This is a unique opportunity to be part of a company from its absolute inception. This role is initially remote and part-time, offering the flexibility to grow into a full-time position as we scale our operations and regional footprint. Because this is a founding role, you will be deeply integrated into our strategy before we even go live.</p>
+       <p><strong>Compensation and Leadership Potential</strong></p>
+       <p>Initial compensation is profit-based, set at 2% of company profit (calculated after tax but before shareholder deductions) with a strict cap of $45,000. As the startup establishes itself, a fixed base salary will be negotiated. Furthermore, based on performance and fit, there is the potential to be appointed as an interim Board Executive Director or a non-director Executive to help steer the company through its critical launch phase.</p>
+       <p><strong>Your Impact</strong></p>
+       <p>You will be our primary shield against financial crime. We are already in the process of drafting our initial compliance policies, so your role will focus on reviewing and refining these documents rather than starting from scratch. You will work closely with our software engineers to ensure our automated systems are built with "compliance by design," balancing regulatory rigor with a seamless user experience. We need a creative problem-solver who can navigate complex international standards while maintaining the speed a startup requires.</p>
+       <p><strong>Requirements</strong></p>
+       <p><strong>Minimum of a BSc in Finance, Law, Criminology, or a related field.</strong></p>
+       <p><strong>Strong creative work experience within the fintech or payments sector, specifically in AML/KYC.</strong></p>
+       <p><strong>A deep understanding of international AML regulations and a willingness to master Philippine OPS requirements.</strong></p>
+       <p><strong>Strong technical literacy and the ability to collaborate effectively with software builders and engineers.</strong></p>
+       <p><strong>Entrepreneurial mindset with the ability to work independently in a remote-first, mission-driven environment.</strong></p>
+       <p><strong>Excellent analytical skills and a commitment to structured, documentation-heavy decision making.</strong></p>
+       <p>We are looking to conduct interviews and begin team integration immediately. If you want to build the future of Asian fintech from the ground floor, we would love to meet you.</p>
     `
   },
   {
