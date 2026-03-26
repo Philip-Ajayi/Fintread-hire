@@ -34,30 +34,22 @@ const JOBS = [
     slug: 'governance-risk-compliance-manager',
     tags: ['Remote', 'Part-time', '2% Profit Share'],
     description: `
-      <p><strong>The Mission</strong></p>
-      <p>We are currently in the pre-launch phase of building a next-generation payment ecosystem. Operating under the proposed name Fintread LLC, we are establishing our headquarters in the US while registering as an Operator of Payment System (OPS) in the Philippines. Our goal is to create a high-speed, technologically advanced payment system that doesn't just keep up with the market—it sets the pace. We are looking for a founding member who is ready to help us navigate the complexities of international fintech before we officially hit the market.</p>
-      <p><strong>The Role</strong></p>
-      <p>As our Founding GRC Manager, you won't be starting from a blank page. We are already hard at work drafting our initial policies and frameworks. Your role is to serve as the critical eye—reviewing, refining, and validating these structures to ensure they are airtight for our upcoming registrations. This is a unique opportunity to join a lean, remote-first team at the inception stage. For the right candidate, this role offers the chance to serve as an interim Board Director or Executive, providing strategic oversight until our final product launch.</p>
-      <p><strong>What You Will Do</strong></p>
-      <p><strong>* Expert Review:</strong> Evaluate our pre-drafted governance and compliance policies to ensure they align with US and Philippine regulatory standards.</p>
-      <p><strong>* Strategic Integration:</strong> Work directly with our software builders to ensure risk management is baked into our code and automated workflows.</p>
-      <p><strong>* Leadership:</strong> Provide executive-level guidance on compliance roadmaps as we move toward our official launch.</p>
-      <p><strong>* Documentation Audit:</strong> Ensure our "remote-first" culture maintains high standards of structured decision-making and clear documentation.</p>
+      <p><strong>About Fintread LLC</strong></p>
+      <p>We are a mission-driven, remote-first fintech startup currently in its pre-registration phase, with plans to establish our headquarters in the United States. Our immediate vision is to secure an Operator of Payment System (OPS) license in the Philippines as a foreign entity, bringing a swift, advanced payment ecosystem to the region. While we are starting in the Philippines, our roadmap is built for rapid scaling across the Asian continent. We prioritize speed, lean automation, and a relentless obsession with user experience and engineering excellence.</p>
+      <p><strong>The Opportunity</strong></p>
+      <p>We are seeking a founding-level GRC professional to join us at the very inception of our journey. This is a unique, flexible role designed for a builder who wants to help shape a financial giant from the ground up. Initially, this position is remote and part-time, offering a high degree of flexibility as we move toward our official launch. As we scale, there is a clear path to transition into a full-time role.</p>
+      <p><strong>Compensation and Leadership</strong></p>
+      <p>As a founding member, your initial compensation will be profit-based, set at 2% of company profit (post-tax, pre-shareholder deduction) with a strict annual cap of $45,000. Once the startup is well-established, we will transition to a negotiated fixed base salary. Exceptional candidates may be invited to serve as an interim Board Executive Director or a high-level Executive to help steer the company through the final product launch phase.</p>
+      <p><strong>Core Responsibilities</strong></p>
+      <p>You will be the guardian of our regulatory integrity. While our initial policies are currently being drafted, you will not be required to write them from scratch; instead, you will perform critical reviews to ensure they meet the highest standards for US and Philippine regulatory bodies. You will work closely with our software builders to ensure our "swift payment" technology is compliant by design, fostering a culture of fast, structured decision-making and strong documentation.</p>
       <p><strong>Requirements</strong></p>
-      <p><strong>* Education:</strong> Bachelor’s Degree (BSc) in Finance, Law, Business Administration, or a related field.</p>
-      <p><strong>* Experience:</strong> Significant experience in GRC within the Fintech or broader financial services industry.</p>
-      <p><strong>* Global Outlook:</strong> Familiarity with US corporate governance and Philippine financial regulations (specifically OPS) is a major advantage.</p>
-      <p><strong>* Creative Execution:</strong> We need a "builder" mindset—someone who has strong creative work experience and can find innovative ways to solve compliance challenges without slowing down growth.</p>
-      <p><strong>* Technical Literacy:</strong> Ability to collaborate effectively with software engineers and understand automated fintech environments.</p>
-      <p><strong>The Partnership Offer</strong></p>
-      <p>This is a founding-team position designed for someone who values flexibility and skin in the game. It begins as a remote, part-time role with the opportunity to transition to full-time as the company scales.</p>
-      <p><strong>* Compensation:</strong> Revenue-based participation of 2% of company profit (after tax deductions, before shareholder deductions).</p>
-      <p><strong>* Cap:</strong> This profit-sharing arrangement is subject to a strict cap of $50,000.</p>
-      <p><strong>* Influence:</strong> Direct access to the founding team and a seat at the table during the most critical phase of company formation.</p>
-      <p><strong>Our Culture</strong></p>
-      <p>We are a mission-driven, remote-first team. We prioritize speed, leverage automation to stay lean, and are obsessed with user experience. We value strong engineering standards and fast, structured decision-making. If you thrive in high-growth environments where documentation is clear and execution is driven by the market, you will fit right in.</p>
-      <p><strong>Next Steps</strong></p>
-      <p>We are looking to conduct interviews and begin the integration process immediately so our founding team is fully aligned before the official launch. If you are ready to start from inception, we’d love to talk.</p>
+      <p><strong>BSc in Law, Finance, Business Administration, or a related field.</strong></p>
+      <p><strong>Strong creative work experience within the fintech or payments industry.</strong></p>
+      <p><strong>Proven ability to collaborate effectively with engineering and product teams.</strong></p>
+      <p><strong>Comfort working in a remote-first, lean startup environment that moves at high speed.</strong></p>
+      <p><strong>A deep understanding of risk management and the ability to navigate licensing processes in emerging markets.</strong></p>
+      <p><strong>Excellent analytical skills with a focus on market execution and customer-driven compliance.</strong></p>
+      <p>We are looking to conduct interviews and begin the integration process immediately so that our founding team is fully aligned before we go live. If you are ready to build the future of payments in Asia, we want to hear from you.</p>
     `
   },
   {
