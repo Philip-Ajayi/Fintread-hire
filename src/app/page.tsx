@@ -82,30 +82,22 @@ const JOBS = [
     slug: 'product-management',
     tags: ['Remote', 'Part-time', '2% Profit Share'],
     description: `
+      <p><strong>The Vision at Fintread LLC</strong></p>
+      <p>We are a mission-driven fintech startup in its pre-registration phase, preparing to anchor our headquarters in the United States. Our immediate goal is to revolutionize the Philippine payment landscape by securing an Operator of Payment System (OPS) license and launching a high-speed, technologically advanced payment infrastructure. With a roadmap designed for rapid scaling across the Asian continent, we are building a lean, remote-first culture that prioritizes automation, engineering excellence, and a deep obsession with user experience.</p>
       <p><strong>The Opportunity</strong></p>
-      <p>We are currently in the pre-launch phase of building a next-generation payment ecosystem. Operating under the proposed name <strong>Fintread LLC</strong>, we are establishing our headquarters in the US while registering as an Operator of Payment System (OPS) in the Philippines. Our goal is to create a high-speed, technologically advanced payment system that sets a new standard for efficiency. We are looking for a founding Product Manager to join us at the very beginning—helping us shape the product vision before we officially hit the market.</p>
-      <p><strong>The Role</strong></p>
-      <p>As our Founding Product Manager, you will be the bridge between our high-level vision and technical execution. We aren't looking for a traditional corporate manager; we need a creative builder who thrives in a lean, remote-first environment. You will work closely with our software engineers to ensure our "speed and growth" philosophy is reflected in every feature. Because this is a founding role, you may also serve as an interim Board Director or Executive, providing strategic direction until our final product launch.</p>
-      <p><strong>What You Will Do</strong></p>
-      <p><strong>* Product Strategy:</strong> Refine the product roadmap for our swift payment system, ensuring every feature aligns with our mission to stay lean and fast.</p>
-      <p><strong>* Technical Collaboration:</strong> Work directly with our software builders to translate market needs into clear, actionable engineering standards.</p>
-      <p><strong>* UX Obsession:</strong> Champion the user experience at every turn, ensuring the final product is intuitive, modern, and highly functional.</p>
-      <p><strong>* Documentation & Execution:</strong> Lead fast, structured decision-making through clear documentation and customer-driven market execution.</p>
+      <p>We are seeking a visionary Product Manager to join us as a founding employee. This is an invitation to build from the absolute ground floor. To ensure flexibility for both parties, this initial engagement is remote and part-time, with a clear trajectory toward a full-time role as we scale. You will be integrated into the team immediately, helping us prepare for a successful launch and ensuring our product strategy aligns with our mission-driven goals.</p>
+      <p><strong>Compensation and Executive Path</strong></p>
+      <p>As a founding member, your initial compensation is profit-based, structured at 2% of company profit (post-tax, pre-shareholder deduction) with a strict cap of $45,000. Once the startup reaches established milestones, we will move toward a negotiated fixed base salary. Exceptional candidates may also be considered for an interim appointment as a Board Executive Director or a high-level Executive to lead the company through our final product launch phase.</p>
+      <p><strong>Your Impact and Responsibilities</strong></p>
+      <p>You will be the bridge between our high-level vision and technical execution. Working directly with our software builders, you will translate market needs into structured documentation and engineering standards. Your focus will be on maintaining speed without sacrificing quality, leveraging automation to keep us lean, and ensuring every feature is customer-driven. While we are already drafting our initial internal policies, you will be responsible for reviewing and optimizing them to ensure they support a world-class user experience.</p>
       <p><strong>Requirements</strong></p>
-      <p><strong>* Education:</strong> Bachelor’s Degree (BSc) in Computer Science, Business, Engineering, or a related field.</p>
-      <p><strong>* Experience:</strong> Proven experience managing digital products, ideally within Fintech, Payments, or high-growth SaaS environments.</p>
-      <p><strong>* Creative Work History:</strong> A strong portfolio of creative work experience—we need someone who can solve complex problems with innovative thinking.</p>
-      <p><strong>* Agile & Lean Mindset:</strong> Experience working in remote-first cultures that prioritize automation over manual overhead.</p>
-      <p><strong>* Communication:</strong> Exceptional ability to communicate technical requirements to builders and strategic goals to stakeholders.</p>
-      <p><strong>The Partnership Offer</strong></p>
-      <p>This is a unique, revenue-based founding role designed for a true partner who wants skin in the game. It begins as a remote, part-time position with the opportunity to transition to full-time as we scale.</p>
-      <p><strong>* Compensation:</strong> 2% of company profit (calculated after tax but before shareholder deductions).</p>
-      <p><strong>* Earnings Cap:</strong> This profit-sharing arrangement is subject to a strict cap of $50,000.</p>
-      <p><strong>* Influence:</strong> Direct involvement in the executive leadership of the startup from day one.</p>
-      <p><strong>Our Culture</strong></p>
-      <p>We are a mission-driven team that values speed, growth, and automation. We stay lean by choice and obsess over the user. We believe in high engineering standards and fast execution. If you prefer slow-moving hierarchies, this isn't for you. If you want to build the future of global payments from inception, we want to meet you.</p>
-      <p><strong>Next Steps</strong></p>
-      <p>We are looking to conduct interviews and begin the integration process immediately so our founding team is fully aligned before the official launch. If you are ready to build from the ground up, let's talk.</p>
+      <p><strong>BSc in Computer Science, Business Administration, Engineering, or a related field.</strong></p>
+      <p><strong>Substantial creative work experience in product management, specifically within fintech or payment systems.</strong></p>
+      <p><strong>Demonstrated ability to collaborate with software developers to ship complex technical products.</strong></p>
+      <p><strong>Strong proficiency in technical documentation and structured decision-making.</strong></p>
+      <p><strong>An entrepreneurial mindset with a comfort for remote-first, high-growth startup environments.</strong></p>
+      <p><strong>Excellent analytical skills with a focus on market execution and user-centric design.</strong></p>
+      <p>We intend to conduct interviews and begin team integration shortly to ensure our founding team is ready for inception. If you are ready to shape the future of payments in Asia, we want to hear from you.</p>
     `
   }
 ];
