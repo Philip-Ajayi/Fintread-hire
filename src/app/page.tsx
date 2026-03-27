@@ -275,6 +275,9 @@ export default function App() {
                 >
                   FINTREAD.
                 </motion.h1>
+                <motion.p className="text-sm text-yellow-400 bg-yellow-500/10 border border-yellow-500/20 px-4 py-2 rounded-xl max-w-xl">
+                  ⚠️ This page is for recruitment purposes only. This domain is not the official product platform of Fintread.
+                </motion.p>
                 <motion.p className="text-xl text-slate-400 max-w-2xl leading-relaxed">
                   A mission-driven, remote-first fintech culture that prioritizes speed and growth. We are building the future of cross-border payments in the Philippines.
                 </motion.p>
