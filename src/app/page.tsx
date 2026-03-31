@@ -34,7 +34,7 @@ const JOBS = [
     slug: 'governance-risk-compliance-manager',
     tags: ['Remote', 'Part-time', '2% Profit Share'],
     description: `
-      <p><strong>About Fintread LLC</strong></p>
+      <p><strong>About Paymentagon LLC</strong></p>
       <p>We are a mission-driven, remote-first fintech startup currently in its pre-registration phase, with plans to establish our headquarters in the United States. Our immediate vision is to secure an Operator of Payment System (OPS) license in the Philippines as a foreign entity, bringing a swift, advanced payment ecosystem to the region. While we are starting in the Philippines, our roadmap is built for rapid scaling across the Asian continent. We prioritize speed, lean automation, and a relentless obsession with user experience and engineering excellence.</p>
       <p><strong>The Opportunity</strong></p>
       <p>We are seeking a founding-level GRC professional to join us at the very inception of our journey. This is a unique, flexible role designed for a builder who wants to help shape a financial giant from the ground up. Initially, this position is remote and part-time, offering a high degree of flexibility as we move toward our official launch. As we scale, there is a clear path to transition into a full-time role.</p>
@@ -58,7 +58,7 @@ const JOBS = [
     slug: 'anti-money-laundering-officer',
     tags: ['Remote', 'Part-time', '2% Profit Share'],
     description: `
-       <p><strong>About Fintread LLC</strong></p>
+       <p><strong>About Paymentagon LLC</strong></p>
        <p>We are a mission-driven fintech startup in its pre-launch phase, preparing to establish our global headquarters in the United States. Our immediate mission is to disrupt the payments landscape in the Philippines by securing an Operator of Payment System (OPS) license and deploying a high-speed, tech-forward payment infrastructure. With a long-term vision to scale across Asia, we are building a remote-first culture that obsesses over user experience, engineering standards, and lean, automated growth.</p>
        <p><strong>The Opportunity</strong></p>
        <p>We are looking for an Anti-Money Laundering (AML) expert to join us as a founding employee. This is a unique opportunity to be part of a company from its absolute inception. This role is initially remote and part-time, offering the flexibility to grow into a full-time position as we scale our operations and regional footprint. Because this is a founding role, you will be deeply integrated into our strategy before we even go live.</p>
@@ -82,7 +82,7 @@ const JOBS = [
     slug: 'product-management',
     tags: ['Remote', 'Part-time', '2% Profit Share'],
     description: `
-      <p><strong>The Vision at Fintread LLC</strong></p>
+      <p><strong>The Vision at Paymentagon LLC</strong></p>
       <p>We are a mission-driven fintech startup in its pre-registration phase, preparing to anchor our headquarters in the United States. Our immediate goal is to revolutionize the Philippine payment landscape by securing an Operator of Payment System (OPS) license and launching a high-speed, technologically advanced payment infrastructure. With a roadmap designed for rapid scaling across the Asian continent, we are building a lean, remote-first culture that prioritizes automation, engineering excellence, and a deep obsession with user experience.</p>
       <p><strong>The Opportunity</strong></p>
       <p>We are seeking a visionary Product Manager to join us as a founding employee. This is an invitation to build from the absolute ground floor. To ensure flexibility for both parties, this initial engagement is remote and part-time, with a clear trajectory toward a full-time role as we scale. You will be integrated into the team immediately, helping us prepare for a successful launch and ensuring our product strategy aligns with our mission-driven goals.</p>
@@ -273,10 +273,10 @@ export default function App() {
                 <motion.h1 
                   className="text-6xl md:text-8xl font-black tracking-tighter bg-clip-text text-transparent bg-gradient-to-b from-white to-slate-500 leading-tight"
                 >
-                  FINTREAD.
+                  PAYMENTAGON.
                 </motion.h1>
                 <motion.p className="text-sm text-yellow-400 bg-yellow-500/10 border border-yellow-500/20 px-4 py-2 rounded-xl max-w-xl">
-                  ⚠️ This page is for recruitment purposes only. This domain is not the official product platform of Fintread.
+                  ⚠️ This page is for recruitment purposes only. This domain is not the official product platform of Paymentagon.
                 </motion.p>
                 <motion.p className="text-xl text-slate-400 max-w-2xl leading-relaxed">
                   A mission-driven, remote-first fintech culture that prioritizes speed and growth. We are building the future of cross-border payments in the Philippines.
@@ -295,7 +295,7 @@ export default function App() {
                     View Open Roles <ChevronRight size={20} />
                   </button>
                   <a 
-                    href="https://linkedin.com/company/fintread" 
+                    href="https://linkedin.com/company/paymentagon" 
                     target="_blank"
                     className="px-8 py-4 bg-white/5 border border-white/10 font-bold rounded-2xl hover:bg-white/10 transition-colors"
                   >
@@ -336,7 +336,7 @@ export default function App() {
                       <div className="w-24 h-24 border-2 border-blue-500/50 rounded-full animate-pulse" />
                     </motion.div>
                   </div>
-                  <p className="italic text-slate-400 text-sm">"At Fintread, we don't just move money; we move families forward. Our systems are built for reliability and global scale."</p>
+                  <p className="italic text-slate-400 text-sm">"At Paymentagon, we don't just move money; we move families forward. Our systems are built for reliability and global scale."</p>
                 </GlassCard>
               </section>
 
@@ -594,7 +594,7 @@ export default function App() {
                           <Globe size={32} />
                         </div>
                         <h3 className="text-3xl font-bold">Can you work remotely?</h3>
-                        <p className="text-slate-400">Fintread is a remote-first organization with hubs in the US and PH.</p>
+                        <p className="text-slate-400">Paymentagon is a remote-first organization with hubs in the US and PH.</p>
                         <div className="grid grid-cols-2 gap-4 pt-4">
                           {[
                             { val: true, label: "Yes, I'm remote-ready" },
@@ -650,7 +650,7 @@ export default function App() {
                             </div>
                           </div>
                         </div>
-                        <p className="text-xs text-slate-500 bg-white/5 p-4 rounded-xl">By submitting, you agree to send your data to Fintread's hiring team. We process applications within 48 hours.</p>
+                        <p className="text-xs text-slate-500 bg-white/5 p-4 rounded-xl">By submitting, you agree to send your data to Paymentagon's hiring team. We process applications within 48 hours.</p>
                       </motion.div>
                     )}
 
