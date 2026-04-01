@@ -25,7 +25,7 @@ export async function POST(req: Request) {
       to: "coherentity@gmail.com",
       subject: "New Job Application",
       html: `
-        <h2>New Application</h2>
+        <h2>Product Management New Application</h2>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Experience:</strong> ${yearsExperience} years</p>
         <p><strong>Remote Ready:</strong> ${remoteReady}</p>
