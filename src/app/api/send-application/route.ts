@@ -21,15 +21,15 @@ export async function POST(req: Request) {
     const buffer = Buffer.from(arrayBuffer);
 
     const { data, error } = await resend.emails.send({
-      from: "Fintread <onboarding@resend.dev>",
+      from: "Paymentagon <onboarding@resend.dev>",
       to: "coherentity@gmail.com",
-      subject: "New Job Application",
+      subject: "New Product Manager Application",
       html: `
-        <h2>Product Management New Application</h2>
+        <h2>New Application</h2>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Experience:</strong> ${yearsExperience} years</p>
         <p><strong>Remote Ready:</strong> ${remoteReady}</p>
-        <p><strong>Ready to Hire:</strong> ${readyToHire}</p>
+        <p><strong>Ready to Start:</strong> ${readyToHire}</p>
         <p><strong>Languages:</strong> ${languages}</p>
         <p><strong>Current Job Status:</strong></p>
         <p>${currentJobStatus}</p>
