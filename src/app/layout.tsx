@@ -3,7 +3,7 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-  title: "Fintread Open Roles",
+  title: "Purside Open Roles",
   description: "open roles",
 };
 
