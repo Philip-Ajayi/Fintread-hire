@@ -252,7 +252,7 @@ export default function App() {
                   PURSIDE LTD.
                 </motion.h1>
                 <motion.p className="text-sm text-yellow-400 bg-yellow-500/10 border border-yellow-500/20 px-4 py-2 rounded-xl max-w-xl">
-                  ⚠️ This page is for recruitment purposes only. This domain is not the official product platform of Paymentagon.
+                  ⚠️ This page is for recruitment purposes only. This domain is not the official product platform of Purside Ltd.
                 </motion.p>
                 <motion.p className="text-xl text-slate-400 max-w-2xl leading-relaxed">
                   A mission-driven, remote-first fintech culture that prioritizes speed and growth. We are building the future of cross-border payments in the Philippines.
@@ -312,7 +312,7 @@ export default function App() {
                       <div className="w-24 h-24 border-2 border-blue-500/50 rounded-full animate-pulse" />
                     </motion.div>
                   </div>
-                  <p className="italic text-slate-400 text-sm">"At Paymentagon, we don't just move money; we move families forward. Our systems are built for reliability and global scale."</p>
+                  <p className="italic text-slate-400 text-sm">"At Purside, we don't just move money; we move families forward. Our systems are built for reliability and global scale."</p>
                 </GlassCard>
               </section>
 
@@ -379,7 +379,7 @@ export default function App() {
 
                 <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row gap-4 items-center justify-between">
                   <div className="text-sm text-slate-500">
-                    Max Annual Reward: <span className="text-white font-bold">$45,000 USD</span>
+                    Max Annual Reward: <span className="text-white font-bold">£35,000 GBP</span>
                   </div>
                   <button 
                     onClick={() => handleApply(selectedJob)}
@@ -570,7 +570,7 @@ export default function App() {
                           <Globe size={32} />
                         </div>
                         <h3 className="text-3xl font-bold">Can you work remotely?</h3>
-                        <p className="text-slate-400">Paymentagon is a remote-first organization with hubs in the US and PH.</p>
+                        <p className="text-slate-400">Purside is a remote-first organization with hubs in the US and PH.</p>
                         <div className="grid grid-cols-2 gap-4 pt-4">
                           {[
                             { val: true, label: "Yes, I'm remote-ready" },
@@ -626,7 +626,7 @@ export default function App() {
                             </div>
                           </div>
                         </div>
-                        <p className="text-xs text-slate-500 bg-white/5 p-4 rounded-xl">By submitting, you agree to send your data to Paymentagon's hiring team. We process applications within 48 hours.</p>
+                        <p className="text-xs text-slate-500 bg-white/5 p-4 rounded-xl">By submitting, you agree to send your data to Purside's hiring team. We process applications within 48 hours.</p>
                       </motion.div>
                     )}
 
