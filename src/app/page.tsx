@@ -29,75 +29,51 @@ type Job = {
 // --- Mock Data ---
 const JOBS = [
   {
-    id: 'grc-manager',
-    title: 'Governance, Risk and Compliance Manager',
-    slug: 'governance-risk-compliance-manager',
-    tags: ['Remote', 'Part-time', '2% Profit Share'],
-    description: `
-      <p><strong>About Paymentagon LLC</strong></p>
-      <p>We are a mission-driven, remote-first fintech startup currently in its pre-registration phase, with plans to establish our headquarters in the United States. Our immediate vision is to secure an Operator of Payment System (OPS) license in the Philippines as a foreign entity, bringing a swift, advanced payment ecosystem to the region. While we are starting in the Philippines, our roadmap is built for rapid scaling across the Asian continent. We prioritize speed, lean automation, and a relentless obsession with user experience and engineering excellence.</p>
-      <p><strong>The Opportunity</strong></p>
-      <p>We are seeking a founding-level GRC professional to join us at the very inception of our journey. This is a unique, flexible role designed for a builder who wants to help shape a financial giant from the ground up. Initially, this position is remote and part-time, offering a high degree of flexibility as we move toward our official launch. As we scale, there is a clear path to transition into a full-time role.</p>
-      <p><strong>Compensation and Leadership</strong></p>
-      <p>As a founding member, your initial compensation will be profit-based, set at 2% of company profit (post-tax, pre-shareholder deduction) with a strict annual cap of $45,000. Once the startup is well-established, we will transition to a negotiated fixed base salary. Exceptional candidates may be invited to serve as an interim Board Executive Director or a high-level Executive to help steer the company through the final product launch phase.</p>
-      <p><strong>Core Responsibilities</strong></p>
-      <p>You will be the guardian of our regulatory integrity. While our initial policies are currently being drafted, you will not be required to write them from scratch; instead, you will perform critical reviews to ensure they meet the highest standards for US and Philippine regulatory bodies. You will work closely with our software builders to ensure our "swift payment" technology is compliant by design, fostering a culture of fast, structured decision-making and strong documentation.</p>
-      <p><strong>Requirements</strong></p>
-      <p><strong>BSc in Law, Finance, Business Administration, or a related field.</strong></p>
-      <p><strong>Strong creative work experience within the fintech or payments industry.</strong></p>
-      <p><strong>Proven ability to collaborate effectively with engineering and product teams.</strong></p>
-      <p><strong>Comfort working in a remote-first, lean startup environment that moves at high speed.</strong></p>
-      <p><strong>A deep understanding of risk management and the ability to navigate licensing processes in emerging markets.</strong></p>
-      <p><strong>Excellent analytical skills with a focus on market execution and customer-driven compliance.</strong></p>
-      <p>We are looking to conduct interviews and begin the integration process immediately so that our founding team is fully aligned before we go live. If you are ready to build the future of payments in Asia, we want to hear from you.</p>
-    `
-  },
-  {
     id: 'aml-officer',
     title: 'Anti Money Laundering Officer',
     slug: 'anti-money-laundering-officer',
     tags: ['Remote', 'Part-time', '2% Profit Share'],
     description: `
-       <p><strong>About Paymentagon LLC</strong></p>
-       <p>We are a mission-driven fintech startup in its pre-launch phase, preparing to establish our global headquarters in the United States. Our immediate mission is to disrupt the payments landscape in the Philippines by securing an Operator of Payment System (OPS) license and deploying a high-speed, tech-forward payment infrastructure. With a long-term vision to scale across Asia, we are building a remote-first culture that obsesses over user experience, engineering standards, and lean, automated growth.</p>
-       <p><strong>The Opportunity</strong></p>
-       <p>We are looking for an Anti-Money Laundering (AML) expert to join us as a founding employee. This is a unique opportunity to be part of a company from its absolute inception. This role is initially remote and part-time, offering the flexibility to grow into a full-time position as we scale our operations and regional footprint. Because this is a founding role, you will be deeply integrated into our strategy before we even go live.</p>
+       <p><strong>About Purside Ltd</strong></p>
+       <p>We are a mission-driven fintech startup currently in a pre-operational, pre-revenue stage. Registered in the United Kingdom, we are preparing to expand into the Philippine market by securing an Operator of Payment System (OPS) license. Our immediate mission is to build and deploy a high-speed, technologically advanced payment infrastructure tailored for the Philippines, with a long-term vision to scale across Asia. We are building a remote-first culture that prioritizes user experience, strong engineering standards, and lean, automated growth.</p>
+       <p><strong>The Opportunity – AML Lead</strong></p>
+       <p>We are looking for an Anti-Money Laundering (AML) expert to join us as a founding team member. This is a unique opportunity to help shape the compliance and risk foundation of the company from inception. The role is initially remote and part-time, with a clear path toward a full-time leadership position as we scale operations and secure regulatory approvals. As a founding member, you will be deeply integrated into our regulatory and product strategy before launch.</p>
        <p><strong>Compensation and Leadership Potential</strong></p>
-       <p>Initial compensation is profit-based, set at 2% of company profit (calculated after tax but before shareholder deductions) with a strict cap of $45,000. As the startup establishes itself, a fixed base salary will be negotiated. Furthermore, based on performance and fit, there is the potential to be appointed as an interim Board Executive Director or a non-director Executive to help steer the company through its critical launch phase.</p>
+       <p>Initial compensation is profit-based, set at 2% of company profit (calculated after tax but before shareholder deductions) with a strict cap of £30,000. As the startup reaches key milestones, a fixed base salary will be negotiated. Based on performance and strategic fit, there is potential to transition into a senior executive role, including leadership of compliance or broader risk functions during our launch and growth phase.</p>
        <p><strong>Your Impact</strong></p>
-       <p>You will be our primary shield against financial crime. We are already in the process of drafting our initial compliance policies, so your role will focus on reviewing and refining these documents rather than starting from scratch. You will work closely with our software engineers to ensure our automated systems are built with "compliance by design," balancing regulatory rigor with a seamless user experience. We need a creative problem-solver who can navigate complex international standards while maintaining the speed a startup requires.</p>
+       <p>You will be responsible for building and safeguarding the company’s financial crime prevention framework. While initial compliance policies are already being drafted, your role will focus on reviewing, strengthening, and operationalizing them to meet both international standards and Philippine regulatory requirements. You will work closely with our engineers to ensure a “compliance by design” approach, embedding AML/KYC controls directly into our systems while maintaining a seamless user experience. This role requires balancing regulatory rigor with the speed and adaptability of a startup environment.</p>
        <p><strong>Requirements</strong></p>
        <p><strong>Minimum of a BSc in Finance, Law, Criminology, or a related field.</strong></p>
-       <p><strong>Strong creative work experience within the fintech or payments sector, specifically in AML/KYC.</strong></p>
-       <p><strong>A deep understanding of international AML regulations and a willingness to master Philippine OPS requirements.</strong></p>
-       <p><strong>Strong technical literacy and the ability to collaborate effectively with software builders and engineers.</strong></p>
-       <p><strong>Entrepreneurial mindset with the ability to work independently in a remote-first, mission-driven environment.</strong></p>
-       <p><strong>Excellent analytical skills and a commitment to structured, documentation-heavy decision making.</strong></p>
-       <p>We are looking to conduct interviews and begin team integration immediately. If you want to build the future of Asian fintech from the ground floor, we would love to meet you.</p>
+       <p><strong>Strong experience within fintech or payment systems, specifically in AML/KYC and financial crime compliance.</strong></p>
+       <p><strong>Solid understanding of international AML regulations and readiness to align with Philippine OPS requirements.</strong></p>
+       <p><strong>Technical literacy with the ability to collaborate effectively with engineers and product teams.</strong></p>
+       <p><strong>Entrepreneurial mindset and comfort working in a remote-first, high-growth environment.</strong></p>
+       <p><strong>Strong analytical skills with a disciplined approach to documentation and decision-making.</strong></p>
+       <p>We aim to begin interviews and team integration shortly to ensure readiness ahead of our regulatory and product launch milestones. If you are interested in shaping the compliance backbone of a next-generation payment company in Asia, we would like to hear from you.</p>
     `
   },
   {
     id: 'product-management',
-    title: 'Product Management',
+    title: 'Head of Product',
     slug: 'product-management',
     tags: ['Remote', 'Part-time', '2% Profit Share'],
     description: `
-      <p><strong>The Vision at Paymentagon LLC</strong></p>
-      <p>We are a mission-driven fintech startup in its pre-registration phase, preparing to anchor our headquarters in the United States. Our immediate goal is to revolutionize the Philippine payment landscape by securing an Operator of Payment System (OPS) license and launching a high-speed, technologically advanced payment infrastructure. With a roadmap designed for rapid scaling across the Asian continent, we are building a lean, remote-first culture that prioritizes automation, engineering excellence, and a deep obsession with user experience.</p>
-      <p><strong>The Opportunity</strong></p>
-      <p>We are seeking a visionary Product Manager to join us as a founding employee. This is an invitation to build from the absolute ground floor. To ensure flexibility for both parties, this initial engagement is remote and part-time, with a clear trajectory toward a full-time role as we scale. You will be integrated into the team immediately, helping us prepare for a successful launch and ensuring our product strategy aligns with our mission-driven goals.</p>
+      <p><strong>The Vision at Purside Ltd</strong></p>
+      <p>We are a mission-driven fintech startup currently in a pre-operational, pre-revenue stage. Registered in the United Kingdom, we are preparing to expand into the Philippine market by securing an Operator of Payment System (OPS) license. Our goal is to build a high-speed, technologically advanced payment infrastructure tailored for the Philippines, with a long-term roadmap for scaling across Asia. We are building a lean, remote-first culture that prioritizes automation, engineering excellence, and a deep obsession with user experience.</p>
+      <p><strong>The Opportunity – Head of Product</strong></p>
+      <p>We are seeking a visionary Head of Product to join us as a founding team member. This is an opportunity to build from the ground up and define the product vision, strategy, and execution. To ensure flexibility for both parties, this initial engagement is remote and part-time, with a clear trajectory toward a full-time leadership role as we scale. You will be integrated into the team immediately, helping us prepare for a successful launch and ensuring our product strategy aligns with our mission-driven goals.</p>
       <p><strong>Compensation and Executive Path</strong></p>
-      <p>As a founding member, your initial compensation is profit-based, structured at 2% of company profit (post-tax, pre-shareholder deduction) with a strict cap of $45,000. Once the startup reaches established milestones, we will move toward a negotiated fixed base salary. Exceptional candidates may also be considered for an interim appointment as a Board Executive Director or a high-level Executive to lead the company through our final product launch phase.</p>
+      <p>As a founding member, your initial compensation is profit-based, structured at 2% of company profit (post-tax, pre-shareholder deduction) with a strict cap of £35,000. Once the startup reaches established milestones, we will move toward a negotiated fixed base salary. Exceptional candidates may also be considered for an executive leadership role or board-level involvement as we approach our final product launch phase.</p>
       <p><strong>Your Impact and Responsibilities</strong></p>
-      <p>You will be the bridge between our high-level vision and technical execution. Working directly with our software builders, you will translate market needs into structured documentation and engineering standards. Your focus will be on maintaining speed without sacrificing quality, leveraging automation to keep us lean, and ensuring every feature is customer-driven. While we are already drafting our initial internal policies, you will be responsible for reviewing and optimizing them to ensure they support a world-class user experience.</p>
+      <p>You will lead the translation of our vision into a scalable product strategy and execution roadmap. Working closely with our software builders, you will define product requirements, establish engineering standards, and ensure efficient delivery without compromising quality. You will champion a user-first approach, leverage automation to maintain operational efficiency, and refine internal policies to support a world-class product experience.</p>
       <p><strong>Requirements</strong></p>
       <p><strong>BSc in Computer Science, Business Administration, Engineering, or a related field.</strong></p>
-      <p><strong>Substantial creative work experience in product management, specifically within fintech or payment systems.</strong></p>
-      <p><strong>Demonstrated ability to collaborate with software developers to ship complex technical products.</strong></p>
-      <p><strong>Strong proficiency in technical documentation and structured decision-making.</strong></p>
-      <p><strong>An entrepreneurial mindset with a comfort for remote-first, high-growth startup environments.</strong></p>
-      <p><strong>Excellent analytical skills with a focus on market execution and user-centric design.</strong></p>
-      <p>We intend to conduct interviews and begin team integration shortly to ensure our founding team is ready for inception. If you are ready to shape the future of payments in Asia, we want to hear from you.</p>
+      <p><strong>Extensive experience in product management, preferably within fintech or payment systems.</strong></p>
+      <p><strong>Proven ability to lead product teams and collaborate with engineers to deliver complex technical products.</strong></p>
+      <p><strong>Strong expertise in product strategy, technical documentation, and structured decision-making.</strong></p>
+      <p><strong>An entrepreneurial mindset with comfort in remote-first, high-growth startup environments.</strong></p>
+      <p><strong>Excellent analytical skills with a strong focus on execution and user-centric design.</strong></p>
+      <p>We intend to conduct interviews and begin team integration shortly to ensure our founding team is ready for launch. If you are ready to shape the future of payments in the Philippines and beyond, we want to hear from you.</p>
     `
   }
 ];
@@ -273,7 +249,7 @@ export default function App() {
                 <motion.h1 
                   className="text-6xl md:text-8xl font-black tracking-tighter bg-clip-text text-transparent bg-gradient-to-b from-white to-slate-500 leading-tight"
                 >
-                  PAYMENTAGON.
+                  PURSIDE LTD.
                 </motion.h1>
                 <motion.p className="text-sm text-yellow-400 bg-yellow-500/10 border border-yellow-500/20 px-4 py-2 rounded-xl max-w-xl">
                   ⚠️ This page is for recruitment purposes only. This domain is not the official product platform of Paymentagon.
@@ -295,7 +271,7 @@ export default function App() {
                     View Open Roles <ChevronRight size={20} />
                   </button>
                   <a 
-                    href="https://linkedin.com/company/paymentagon" 
+                    href="https://linkedin.com/company/purside" 
                     target="_blank"
                     className="px-8 py-4 bg-white/5 border border-white/10 font-bold rounded-2xl hover:bg-white/10 transition-colors"
                   >
