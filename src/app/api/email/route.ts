@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import nodemailer from "nodemailer";
+import Resend from "resend";
 
 // Allow external domains
 const corsHeaders = {
@@ -13,16 +13,8 @@ export async function OPTIONS() {
   return NextResponse.json({}, { headers: corsHeaders });
 }
 
-// Create transporter (inline, no lib/mailer import)
-const transporter = nodemailer.createTransport({
-  host: process.env.SMTP_HOST!,
-  port: Number(process.env.SMTP_PORT!),
-  secure: process.env.SMTP_SECURE === "true", // true for 465, false for 587
-  auth: {
-    user: process.env.SMTP_USER!,
-    pass: process.env.SMTP_PASS!,
-  },
-});
+// Initialize Resend client
+const resend = new Resend(process.env.resend_api);
 
 export async function POST(req: Request) {
   try {
@@ -31,14 +23,13 @@ export async function POST(req: Request) {
     if (!email || !fullName) {
       return NextResponse.json(
         { error: "Missing fields" },
-        { status: 400,
-          headers: corsHeaders
-        }
+        { status: 400, headers: corsHeaders }
       );
     }
 
-    await transporter.sendMail({
-      from: `"Singles Connect" <${process.env.MAIL_FROM_ADDRESS}>`,
+    // Send email via Resend
+    await resend.emails.send({
+      from: "Singles Connect <contact@mivwordhouse.com>",
       to: email,
       subject: "Welcome to Single's Connect 2026 🎉",
       text: `Hi ${fullName},
@@ -52,34 +43,21 @@ Singles Connect Team`,
       html: `
         <div style="font-family: Arial, sans-serif;">
           <h2>Hi ${fullName},</h2>
-
           <p>Thank you for registering for <strong>Single's Connect 2026</strong> 💙</p>
-
-          <p>
-            We’re excited to have you with us and we look forward to welcoming you
-            on <strong>May 16, 2026</strong>.
-          </p>
-
+          <p>We’re excited to have you with us and we look forward to welcoming you
+          on <strong>May 16, 2026</strong>.</p>
           <br />
-
           <p>Warm regards,<br/>Singles Connect Team</p>
         </div>
       `,
     });
 
-    return NextResponse.json(
-      { success: true },
-      { headers: corsHeaders }
-    );
-
+    return NextResponse.json({ success: true }, { headers: corsHeaders });
   } catch (err) {
     console.error("Email error:", err);
-
     return NextResponse.json(
       { error: "Server error" },
-      { status: 500,
-        headers: corsHeaders
-      }
+      { status: 500, headers: corsHeaders }
     );
   }
 }
