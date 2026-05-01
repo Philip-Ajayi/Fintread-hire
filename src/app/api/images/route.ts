@@ -11,12 +11,10 @@ function corsHeaders() {
   };
 }
 
-// Handle preflight requests
 export async function OPTIONS() {
   return NextResponse.json({}, { headers: corsHeaders() });
 }
 
-// Handle GET request
 export async function GET() {
   try {
     const url = `https://www.googleapis.com/drive/v3/files?q='${FOLDER_ID}'+in+parents&key=${API_KEY}&fields=files(id,name,mimeType)`;
@@ -24,13 +22,14 @@ export async function GET() {
     const response = await fetch(url);
     const data = await response.json();
 
-    const images = data.files
-      ?.filter((file: any) => file.mimeType?.startsWith("image/"))
-      .map((file: any) => ({
-        id: file.id,
-        name: file.name,
-        url: `https://drive.google.com/uc?id=${file.id}`,
-      })) || [];
+    const images =
+      data.files
+        ?.filter((file: any) => file.mimeType?.startsWith("image/"))
+        .map((file: any) => ({
+          id: file.id,
+          name: file.name,
+          url: `https://drive.google.com/thumbnail?id=${file.id}&sz=w1000`,
+        })) || [];
 
     return NextResponse.json(images, {
       headers: corsHeaders(),
