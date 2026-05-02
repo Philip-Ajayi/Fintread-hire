@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-const RESEND_API_KEY = process.env.RESEND_API_KEY!;
+const RESEND_API_KEY = process.env.RESEND_API_KEY;
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
@@ -47,7 +47,7 @@ export async function POST(req: Request) {
   }
 
   try {
-    await fetch("https://api.resend.com/emails", {
+    const res = await fetch("https://api.resend.com/emails", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -78,7 +78,20 @@ Singles Connect Team`,
       }),
     });
 
-    return NextResponse.json({ success: true }, { headers: corsHeaders });
+    const data = await res.json();
+
+    if (!res.ok) {
+      console.error("Resend API error:", data);
+      return NextResponse.json(
+        { error: "Failed to send email", details: data },
+        { status: 500, headers: corsHeaders }
+      );
+    }
+
+    return NextResponse.json(
+      { success: true },
+      { headers: corsHeaders }
+    );
   } catch (err) {
     console.error("Email error:", err);
     return NextResponse.json(
