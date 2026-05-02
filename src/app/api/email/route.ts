@@ -54,7 +54,7 @@ export async function POST(req: Request) {
         Authorization: `Bearer ${RESEND_API_KEY}`,
       },
       body: JSON.stringify({
-        from: "Singles Connect <noreply@noreply.mivwordhouse.com>",
+        from: "contact@mivwordhouse.com",
         to: email,
         subject: "Welcome to Single's Connect 2026 🎉",
         text: `Hi ${fullName},
